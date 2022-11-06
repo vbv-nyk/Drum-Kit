@@ -4,13 +4,17 @@
     overflow: hidden;
 }
 
+body {
+    background-image: url("images/page-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
 .key-container {
     height: 100vh;
     display: flex;
     justify-content: space-around;
-    background-image: url("images/page-background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
     align-items: center;
 
 }
@@ -20,14 +24,15 @@
     max-width: 100px;
     font-size: xx-large;
     padding: 10px 30px;
-    color: aqua;
+    color: rgb(155, 87, 90);
     transition: all 0.10s;
-    border: 1px solid;
+    border: 1px solid rgb(235, 236, 155);
     background: none;
+
 }
 
 .playing {
-    transform: scale(10, 10);
+    transform: scale(2, 2);
     border-color: yellow;
     color: tomato;
 }

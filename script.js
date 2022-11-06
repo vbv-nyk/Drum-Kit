@@ -14,3 +14,7 @@ window.addEventListener("keyup", (e) => {
     key.classList.remove(`playing`);
 })
 
+let para = document.querySelector("p");
+let content = para.textContent();
+
+
